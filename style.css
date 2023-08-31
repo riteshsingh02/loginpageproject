@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  serif;
+}
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.container p{
+    color: rgb(69, 19, 163);
+    font-size: 30px;
+    font-weight: 700;
+    margin-block: 10px;
+}
+form input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    background-color: rgb(215, 223, 223);
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+    color: rgb(19, 17, 17);
+    margin-block: 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 15px;
+}
+#nameinp{
+    display: none;
+}
+
+ #checkBox{
+    font-size: 5px;
+}
+.checkBox{
+    background-color: aquamarine;
+}
+#forgetbtn{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(65, 62, 62);
+}
+#logbtn{
+    height: 45px;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    width: 70%;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(78, 78, 212);
+    margin-block: 20px;
+}
+i{
+    font-size: 20px;
+    margin-block: 15px;
+}
+i a{
+    text-decoration: none;
+    font-size: 20px;
+}
+i a:hover{
+    color: blue;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+
+}
+.icon{
+    display: flex;
+}
+.icon a img{
+    height: 45px;
+    width: 45px;
+    margin: 15px;
+}
+#checkBox{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#checkBox input{
+    height: 20px;
+    width: 20px;
+    
+    
+
+}
+span{
+    font-size: 20px;
+}
+@media  screen and (max-width:400px) {
+    .container{
+        width: 70%;
+    }
+    .icon a img{
+margin: 5px;
+    }
+    
+}
